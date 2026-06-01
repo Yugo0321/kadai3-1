@@ -60,12 +60,16 @@ header .mv img{
 }
 .title2{
   text-align: center;
-  margin-top: 150px;
 }
 .fashion_area{
   /* position: relative; */
   margin-top: 100px;
+  padding: 50px 0 0 0 ;
   background-image: url("../Mag88_files/fashion.jpg");
+  height: 520px;
+  width: auto;
+  background-size:cover;
+  background-position:center;
 }
 .title2{
   /* position: absolute; */
@@ -158,4 +162,16 @@ footer{
   .antique_area{
     flex-direction: column;
   }
+  
+  footer .fot{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .fot div{
+    text-align: left;
+  }
+  .fot ul{
+  padding-left: 20px;
+}
+  
 }
