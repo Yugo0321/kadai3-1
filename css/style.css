@@ -119,7 +119,7 @@ header .mv img {
 .catalog_area,
 .antique_area {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 40px;
 }
@@ -132,7 +132,13 @@ header .mv img {
   max-width: 450px;
   /* flex-shrink: 0; */
 }
-
+.catalog_area img,
+.antique_area img,
+.catalog_area div,
+.antique_area div {
+  flex: 1;
+  min-width: 0;
+}
 .catalog_area {
   margin-bottom: 120px;
 }
@@ -140,7 +146,7 @@ header .mv img {
 .catalog_area div,
 .antique_area div {
   max-width: 450px;
-  min-width: 430px;
+  /* min-width: 430px; */
 }
 
 .catalog_area div h2,
