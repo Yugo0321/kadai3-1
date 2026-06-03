@@ -184,6 +184,9 @@ footer {
 .fot a {
   align-self: center;
 }
+.fot div ul li{
+  list-style: none;
+}
 
 @media (max-width: 768px) {
   .content1 {
@@ -203,15 +206,6 @@ footer {
 
   .fot div {
     text-align: left;
-  }
-
-  .fot ul {
-    /* padding-left: 20px; */
-    list-style: none;
-  }
-
-  .fot li::before {
-    content: "- ";
   }
 
 }
