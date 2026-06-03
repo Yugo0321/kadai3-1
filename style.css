@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+header {
+  margin-bottom: 50px;
+  position: relative
+}
+
+header .mv img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.containar {
+  /* margin: 20px 20px 1000px 0; */
+}
+
+.containar a img {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.title1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title1 h2 {
+  margin-bottom: 20px;
+}
+
+.content1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 10%;
+}
+
+.achive_area,
+.new_area {
+  position: relative;
+}
+
+.achive_area img,
+.new_area img {
+  display: block;
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+}
+
+.achive,
+.new {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+  max-width: 290px;
+  max-height: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.title2 {
+  text-align: center;
+}
+
+.fashion_area {
+  /* position: relative; */
+  margin-top: 100px;
+  padding: 50px 0 0 0;
+  background-image: url("../Mag88_files/fashion.jpg");
+  height: 520px;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.title2 {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 50%; */
+  /* transform: translate(-50%,-70%); */
+
+}
+
+.fashionphoto img {
+  display: block;
+  margin-left: 80%;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+
+.btn1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 45px;
+  width: 130px;
+  border: 1px solid black;
+}
+
+.btn1:hover {
+  opacity: 0.7;
+}
+
+.cataanti {
+  background-color: #F5F5F5;
+  padding: 55px 10%;
+  /* width: 100%; */
+}
+
+.catalog_area,
+.antique_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.catalog_area img,
+.antique_area img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  /* flex-shrink: 0; */
+}
+.catalog_area img,
+.antique_area img,
+.catalog_area div,
+.antique_area div {
+  flex: 1;
+  min-width: 0;
+}
+.catalog_area {
+  margin-bottom: 120px;
+}
+
+.catalog_area div,
+.antique_area div {
+  max-width: 450px;
+  /* min-width: 430px; */
+}
+
+.catalog_area div h2,
+.antique_area div h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.btn2 {
+  display: block;
+  margin: 20px auto 0;
+  height: 45px;
+  width: 130px;
+  border: 1px solid black;
+}
+
+.btn2:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: #333333;
+  padding: 50px;
+}
+
+.fot {
+  display: flex;
+  justify-content: center;
+  color: #F5F5F5;
+  font-size: 0.8rem;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.fot a {
+  align-self: center;
+}
+.fot div ul li{
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .content1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .catalog_area,
+  .antique_area {
+    flex-direction: column;
+  }
+
+  footer .fot {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .fot div {
+    text-align: left;
+  }
+
+}
