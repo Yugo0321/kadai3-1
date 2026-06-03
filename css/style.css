@@ -141,16 +141,17 @@ header .mv img {
 .antique_area div {
   max-width: 450px;
   min-width: 430px;
-  text-align: center;
 }
 
 .catalog_area div h2,
 .antique_area div h2 {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .btn2 {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto 0;
   height: 45px;
   width: 130px;
   border: 1px solid black;
